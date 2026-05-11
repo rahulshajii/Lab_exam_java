@@ -9,11 +9,13 @@ System.out.println("Enter the password:");
 String pass=sc.nextLine();
 try{
     if(!name.equals("admin") || !pass.equals("Asiet@123"))
+    {
 
         throw new myexception("Invalid login!");
-    
+    }
+    else{
     System.out.println("Login Successfull!!");
-    
+    }
 }
 catch (myexception e){
     
