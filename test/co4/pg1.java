@@ -10,7 +10,7 @@ while(true){
     System.out.println("Area of Shapes\n1.Rectangle \n2.Triangle \n3.Square \n4.Circle \n5.Exit");
     choice=sc.nextInt();
     switch(choice){
-        case 1: System.out.println("Enter the length & bridth:");
+        case 1: System.out.println("Enter the length & breadth:");
                int l=sc.nextInt();
                int br=sc.nextInt();
                Rectangle re = new Rectangle(l,br);
