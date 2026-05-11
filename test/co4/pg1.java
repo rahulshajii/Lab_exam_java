@@ -16,7 +16,7 @@ while(true){
                Rectangle re = new Rectangle(l,br);
                re.area();
                break;
-        case 2:System.out.println("Enter the  bridth & Heigth:");
+        case 2:System.out.println("Enter the  breadth & Height:");
               int b=sc.nextInt();
               int h=sc.nextInt();
               Triangle t = new Triangle(b,h);
